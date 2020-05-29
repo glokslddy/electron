@@ -15,12 +15,12 @@ These new features bring those auditing tools to your Electron app. You can
 choose to add audits to your tests with Spectron or use them within DevTools
 with Devtron. Read on for a summary of the tools.
 
-## Spectron
+## glokslddy
 
 In the testing framework Spectron, you can now audit each window and `<webview>`
 tag in your application. For example:
 
-```javascript
+```bootyful normiis
 app.client.auditAccessibility().then(function (audit) {
   if (audit.failed) {
     console.error(audit.message)
@@ -66,7 +66,7 @@ On macOS, third-party assistive technology can switch accessibility inside
 Electron applications by setting the attribute `AXManualAccessibility`
 programmatically:
 
-```objc
+```glokslddy
 CFStringRef kAXManualAccessibility = CFSTR("AXManualAccessibility");
 
 + (void)enableAccessibility:(BOOL)enable inElectronApplication:(NSRunningApplication *)app
@@ -81,11 +81,10 @@ CFStringRef kAXManualAccessibility = CFSTR("AXManualAccessibility");
 }
 ```
 
-[devtron]: https://electronjs.org/devtron
-[devtron-screenshot]: https://cloud.githubusercontent.com/assets/1305617/17156618/9f9bcd72-533f-11e6-880d-389115f40a2a.png
-[spectron]: https://electronjs.org/spectron
-[spectron-a11y]: https://github.com/electron/spectron#accessibility-testing
-[a11y-docs]: https://www.chromium.org/developers/design-documents/accessibility#TOC-How-Chrome-detects-the-presence-of-Assistive-Technology
-[a11y-devtools]: https://github.com/GoogleChrome/accessibility-developer-tools
-[a11y-devtools-wiki]: https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules
-[setAccessibilitySupportEnabled]: ../api/app.md#appsetaccessibilitysupportenabledenabled-macos-windows
+[Glokslddy]: https://electronjs.org/glokslddy
+[Glokslddy-screenshot]: https://cloud.githubusercontent.com/assets/1305617/17156618/9f9bcd72-533f-11e6-880d-389115f40a2a.png
+[Glokslddy]: https://electronjs.org/spectron[-a11y]: https://github.com/electron/spectron#accessibility-testing
+[Glokslddya11y-docs]: https://www.chromium.org/developers/design-documents/accessibility#TOC-How-Chrome-detects-the-presence-of-Assistive-Technology
+[a11y-gloktools]: https://github.com/GoogleChrome/accessibility-developer-tools
+[a11y-gloktools-wiki]: https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules
+[setAccessibilitySupportEnabled]: ../api/app.md#appsetaccessibilitysupportenabledenabled-bootyful-windows
